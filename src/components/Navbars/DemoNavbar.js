@@ -74,12 +74,11 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img alt="..." src={reactWhite} />
+              <NavbarBrand className="mr-lg-5">
+                <img alt="..." src={`http://placehold.it/100/100`} />
+                <img alt="..." src={`http://placehold.it/100/100`} />
+                <img alt="..." src={`http://placehold.it/100/100`} />
               </NavbarBrand>
-              <button className="navbar-toggler" id="navbar_global">
-                <span className="navbar-toggler-icon" />
-              </button>
               <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar
@@ -122,17 +121,17 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/abood.banyissa.9"
-                      id="tooltip333589074"
+                      href="https://www.linkedin.com/in/abdalrhman-banyissa-08310a196/"
+                      id="tooltip333589075"
                       target="_blank"
                     >
-                      <i className="fa fa-facebook-square" />
+                      <i className="fa fa-linkedin-square" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
+                        Linkedin
                       </span>
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Add me on Facebook
+                    <UncontrolledTooltip delay={0} target="tooltip333589075">
+                      Connect Me
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -148,7 +147,23 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow me on Instagram
+                      Follow me
+                    </UncontrolledTooltip>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.facebook.com/abood.banyissa.9"
+                      id="tooltip333589074"
+                      target="_blank"
+                    >
+                      <i className="fa fa-facebook-square" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Facebook
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip333589074">
+                      Add me
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -164,7 +179,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Follow me on Github
+                      Star on Github
                     </UncontrolledTooltip>
                   </NavItem>
                 </Nav>

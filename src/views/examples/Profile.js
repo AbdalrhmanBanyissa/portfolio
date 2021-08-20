@@ -114,12 +114,6 @@ class Profile extends React.Component {
                           <span className="heading">+5</span>
                           <span className="description">Courses</span>
                         </div>
-                        <div>
-                          <span className="heading">0</span>
-                          <span className="description">
-                            Experiance (Years)
-                          </span>
-                        </div>
                       </div>
                     </Col>
                   </Row>
