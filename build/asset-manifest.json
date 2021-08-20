@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/AbdalrhmanBanyissa/portfolio/static/css/main.922ecbb4.chunk.css",
+    "main.js": "/AbdalrhmanBanyissa/portfolio/static/js/main.83f30479.chunk.js",
+    "main.js.map": "/AbdalrhmanBanyissa/portfolio/static/js/main.83f30479.chunk.js.map",
+    "runtime-main.js": "/AbdalrhmanBanyissa/portfolio/static/js/runtime-main.6a497428.js",
+    "runtime-main.js.map": "/AbdalrhmanBanyissa/portfolio/static/js/runtime-main.6a497428.js.map",
+    "static/js/2.1b17d2c6.chunk.js": "/AbdalrhmanBanyissa/portfolio/static/js/2.1b17d2c6.chunk.js",
+    "static/js/2.1b17d2c6.chunk.js.map": "/AbdalrhmanBanyissa/portfolio/static/js/2.1b17d2c6.chunk.js.map",
+    "index.html": "/AbdalrhmanBanyissa/portfolio/index.html",
+    "static/css/main.922ecbb4.chunk.css.map": "/AbdalrhmanBanyissa/portfolio/static/css/main.922ecbb4.chunk.css.map",
+    "static/js/2.1b17d2c6.chunk.js.LICENSE.txt": "/AbdalrhmanBanyissa/portfolio/static/js/2.1b17d2c6.chunk.js.LICENSE.txt",
+    "static/js/main.83f30479.chunk.js.LICENSE.txt": "/AbdalrhmanBanyissa/portfolio/static/js/main.83f30479.chunk.js.LICENSE.txt",
+    "static/media/argon-react-white.e4dd3b41.png": "/AbdalrhmanBanyissa/portfolio/static/media/argon-react-white.e4dd3b41.png",
+    "static/media/argon-react.128d71d3.png": "/AbdalrhmanBanyissa/portfolio/static/media/argon-react.128d71d3.png",
+    "static/media/creativetim-white-slim.c9b2f68e.png": "/AbdalrhmanBanyissa/portfolio/static/media/creativetim-white-slim.c9b2f68e.png",
+    "static/media/font-awesome.min.css": "/AbdalrhmanBanyissa/portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/github.6c955556.svg": "/AbdalrhmanBanyissa/portfolio/static/media/github.6c955556.svg",
+    "static/media/google.eae9aa93.svg": "/AbdalrhmanBanyissa/portfolio/static/media/google.eae9aa93.svg",
+    "static/media/ill-2.b82bc41c.svg": "/AbdalrhmanBanyissa/portfolio/static/media/ill-2.b82bc41c.svg",
+    "static/media/img-1-1200x1000.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/img-1-1200x1000.df1442cf.jpg",
+    "static/media/img-2-1200x1000.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/img-2-1200x1000.78ce5eca.jpg",
+    "static/media/landing.530e5e3e.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/landing.530e5e3e.jpg",
+    "static/media/nucleo.css": "/AbdalrhmanBanyissa/portfolio/static/media/nucleo-icons.d6a66724.ttf",
+    "static/media/profile.991e6d2c.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/profile.991e6d2c.jpg",
+    "static/media/promo-1.f39d32d2.png": "/AbdalrhmanBanyissa/portfolio/static/media/promo-1.f39d32d2.png",
+    "static/media/team-1-800x800.fa5a7ac2.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/team-1-800x800.fa5a7ac2.jpg",
+    "static/media/team-2-800x800.3e08ef14.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/team-3-800x800.70911cdd.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/team-3-800x800.70911cdd.jpg",
+    "static/media/team-4-800x800.99c612eb.jpg": "/AbdalrhmanBanyissa/portfolio/static/media/team-4-800x800.99c612eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a497428.js",
+    "static/js/2.1b17d2c6.chunk.js",
+    "static/css/main.922ecbb4.chunk.css",
+    "static/js/main.83f30479.chunk.js"
+  ]
+}
