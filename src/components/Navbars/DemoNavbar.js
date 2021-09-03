@@ -74,11 +74,6 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5">
-                <img alt="..." src={`http://placehold.it/100/100`} />
-                <img alt="..." src={`http://placehold.it/100/100`} />
-                <img alt="..." src={`http://placehold.it/100/100`} />
-              </NavbarBrand>
               <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar

@@ -39,24 +39,6 @@ class CardsFooter extends React.Component {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
-                    <CardImg alt="..." src={landing} />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg alt="..." src={profile} />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
@@ -130,27 +112,8 @@ class CardsFooter extends React.Component {
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
-                  © {new Date().getFullYear()} Abdalrhman Banyissa Portfolio.
+                  {new Date().getFullYear()} Abdalrhman Banyissa Portfolio.
                 </div>
-              </Col>
-              <Col md="6">
-                <Nav className=" nav-footer justify-content-end">
-                  <NavItem>
-                    <NavLink href={(e) => e.preventDefault()} target="_blank">
-                      About
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href={(e) => e.preventDefault()} target="_blank">
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href={(e) => e.preventDefault()} target="_blank">
-                      MIT License
-                    </NavLink>
-                  </NavItem>
-                </Nav>
               </Col>
             </Row>
           </Container>

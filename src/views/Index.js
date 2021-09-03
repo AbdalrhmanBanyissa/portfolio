@@ -15,85 +15,147 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from "react"
 
 // reactstrap components
-import { Container, Row } from "reactstrap";
+import { Button, Card, Container, Row, Col } from "reactstrap"
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import DemoNavbar from "components/Navbars/DemoNavbar.js"
+import SimpleFooter from "components/Footers/SimpleFooter.js"
 
-// index page sections
-import Hero from "./IndexSections/Hero.js";
-import Buttons from "./IndexSections/Buttons.js";
-import Inputs from "./IndexSections/Inputs.js";
-import CustomControls from "./IndexSections/CustomControls.js";
-import Menus from "./IndexSections/Menus.js";
-import Navbars from "./IndexSections/Navbars.js";
-import Tabs from "./IndexSections/Tabs.js";
-import Progress from "./IndexSections/Progress.js";
-import Pagination from "./IndexSections/Pagination.js";
-import Pills from "./IndexSections/Pills.js";
-import Labels from "./IndexSections/Labels.js";
-import Alerts from "./IndexSections/Alerts.js";
-import Typography from "./IndexSections/Typography.js";
-import Modals from "./IndexSections/Modals.js";
-import Datepicker from "./IndexSections/Datepicker.js";
-import TooltipPopover from "./IndexSections/TooltipPopover.js";
-import Carousel from "./IndexSections/Carousel.js";
-import Icons from "./IndexSections/Icons.js";
-import Login from "./IndexSections/Login.js";
-import Download from "./IndexSections/Download.js";
-
-class Index extends React.Component {
+class Profile extends React.Component {
   componentDidMount() {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement.scrollTop = 0;
-    this.refs.main.scrollTop = 0;
+    document.documentElement.scrollTop = 0
+    document.scrollingElement.scrollTop = 0
+    this.refs.main.scrollTop = 0
   }
   render() {
     return (
       <>
         <DemoNavbar />
-        <main ref="main">
-          <Hero />
-          <Buttons />
-          <Inputs />
+        <main className="profile-page" ref="main">
+          <section className="section-profile-cover section-shaped my-0">
+            {/* Circles background */}
+            <div className="shape shape-style-1 shape-default alpha-4">
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
+            {/* SVG separator */}
+            <div className="separator separator-bottom separator-skew">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                version="1.1"
+                viewBox="0 0 2560 100"
+                x="0"
+                y="0"
+              >
+                <polygon
+                  className="fill-white"
+                  points="2560 0 2560 100 0 100"
+                />
+              </svg>
+            </div>
+          </section>
           <section className="section">
             <Container>
-              <CustomControls />
-              <Menus />
+              <Card className="card-profile shadow mt--300">
+                <div className="px-4">
+                  <Row className="justify-content-center">
+                    <Col className="order-lg-2" lg="3">
+                      <div className="card-profile-image">
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          <img
+                            alt="..."
+                            className="rounded-circle"
+                            src={`https://avatars.githubusercontent.com/u/81553723?v=4`}
+                          />
+                        </a>
+                      </div>
+                    </Col>
+                    <Col
+                      className="order-lg-3 text-lg-right align-self-lg-center"
+                      lg="4"
+                    >
+                      <div className="card-profile-actions py-4 mt-lg-0">
+                        <Button
+                          className="mr-4"
+                          color="info"
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                          size="sm"
+                        >
+                          Connect
+                        </Button>
+                        <Button
+                          className="float-right"
+                          color="default"
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                          size="sm"
+                        >
+                          Message
+                        </Button>
+                      </div>
+                    </Col>
+                    <Col className="order-lg-1" lg="4">
+                      <div className="card-profile-stats d-flex justify-content-center">
+                        <div>
+                          <span className="heading">+3</span>
+                          <span className="description">Projects</span>
+                        </div>
+                        <div>
+                          <span className="heading">+5</span>
+                          <span className="description">Courses</span>
+                        </div>
+                      </div>
+                    </Col>
+                  </Row>
+                  <div className="text-center mt-5">
+                    <h3>
+                      Abdalrhman Banyissa{" "}
+                      <span className="font-weight-light">, 27</span>
+                    </h3>
+                    <div className="h6 font-weight-300">
+                      <i className="ni location_pin mr-2" />
+                      Zarqa, Jordan
+                    </div>
+                    <div className="h6 mt-4">
+                      <i className="ni business_briefcase-24 mr-2" />
+                      Full Stack Engineer | Mechanical Engineer
+                    </div>
+                    <div>
+                      <i className="ni education_hat mr-2" />
+                      LTUC-ASAC | TTU
+                    </div>
+                  </div>
+                  <div className="mt-5 py-5 border-top text-center">
+                    <Row className="justify-content-center">
+                      <Col lg="9">
+                        <p>
+                          Junior Full stack developer with background in
+                          mechanical engineering and microelectronics.
+                          Passionate about using code to maximize efficiency
+                          while developing creative, customer-focused solutions.
+                        </p>
+                      </Col>
+                    </Row>
+                  </div>
+                </div>
+              </Card>
             </Container>
           </section>
-          <Navbars />
-          <section className="section section-components">
-            <Container>
-              <Tabs />
-              <Row className="row-grid justify-content-between align-items-center mt-lg">
-                <Progress />
-                <Pagination />
-              </Row>
-              <Row className="row-grid justify-content-between">
-                <Pills />
-                <Labels />
-              </Row>
-              <Alerts />
-              <Typography />
-              <Modals />
-              <Datepicker />
-              <TooltipPopover />
-            </Container>
-          </section>
-          <Carousel />
-          <Icons />
-          <Login />
-          <Download />
         </main>
-        <CardsFooter />
+        <SimpleFooter />
       </>
-    );
+    )
   }
 }
 
-export default Index;
+export default Profile

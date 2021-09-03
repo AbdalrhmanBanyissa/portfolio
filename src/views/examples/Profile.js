@@ -139,14 +139,11 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Full stack developer with background in mechanical
-                          engineering and microelectronics. Passionate about
-                          using code to maximize efficiency while developing
-                          creative, customer-focused solutions.
+                          Junior Full stack developer with background in
+                          mechanical engineering and microelectronics.
+                          Passionate about using code to maximize efficiency
+                          while developing creative, customer-focused solutions.
                         </p>
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>

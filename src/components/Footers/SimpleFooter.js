@@ -107,27 +107,8 @@ class SimpleFooter extends React.Component {
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
-                  © {new Date().getFullYear()} Abdalrhman Banyissa Portfolio.
+                  {new Date().getFullYear()} Abdalrhman Banyissa Portfolio.
                 </div>
-              </Col>
-              <Col md="6">
-                <Nav className=" nav-footer justify-content-end">
-                  <NavItem>
-                    <NavLink href={(e) => e.preventDefault()} target="_blank">
-                      About
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href={(e) => e.preventDefault()} target="_blank">
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href={(e) => e.preventDefault()} target="_blank">
-                      MIT License
-                    </NavLink>
-                  </NavItem>
-                </Nav>
               </Col>
             </Row>
           </Container>
