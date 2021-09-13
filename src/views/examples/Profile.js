@@ -15,20 +15,20 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react"
+import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap"
+import { Button, Card, Container, Row, Col } from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js"
-import SimpleFooter from "components/Footers/SimpleFooter.js"
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 class Profile extends React.Component {
   componentDidMount() {
-    document.documentElement.scrollTop = 0
-    document.scrollingElement.scrollTop = 0
-    this.refs.main.scrollTop = 0
+    document.documentElement.scrollTop = 0;
+    document.scrollingElement.scrollTop = 0;
+    this.refs.main.scrollTop = 0;
   }
   render() {
     return (
@@ -87,18 +87,18 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          href="https://www.linkedin.com/in/abdalrhman-banyissa-08310a196/"
                           size="sm"
+                          target="_blank"
                         >
                           Connect
                         </Button>
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          href="mailto: aboood.banyissa.94@gmail.com"
                           size="sm"
+                          target="_blank"
                         >
                           Message
                         </Button>
@@ -139,7 +139,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Junior Full stack developer with background in
+                          Fresh Full-stack Developer with background in
                           mechanical engineering and microelectronics.
                           Passionate about using code to maximize efficiency
                           while developing creative, customer-focused solutions.
@@ -154,8 +154,8 @@ class Profile extends React.Component {
         </main>
         <SimpleFooter />
       </>
-    )
+    );
   }
 }
 
-export default Profile
+export default Profile;

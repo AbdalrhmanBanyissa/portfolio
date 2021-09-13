@@ -15,14 +15,14 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react"
+import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames"
-import movieNest from "assets/img/theme/MovieNest.jpg"
-import travelInJordan from "assets/img/theme/TravelinJordan.jpg"
-import busMall from "assets/img/theme/BusMall.jpg"
-import cocktailApp from "assets/img/theme/cocktailApp.jpg"
-import galleryOfHornes from "assets/img/theme/galleryOfHornes.jpg"
+import classnames from "classnames";
+import movieNest from "assets/img/theme/MovieNest.jpg";
+import travelInJordan from "assets/img/theme/TravelinJordan.jpg";
+import busMall from "assets/img/theme/BusMall.jpg";
+import cocktailApp from "assets/img/theme/cocktailApp.jpg";
+import galleryOfHornes from "assets/img/theme/galleryOfHornes.jpg";
 // reactstrap components
 import {
   Badge,
@@ -38,21 +38,21 @@ import {
   Container,
   Row,
   Col,
-} from "reactstrap"
+} from "reactstrap";
 
 // core components
-import DemoNavbar from "components/Navbars/DemoNavbar.js"
-import CardsFooter from "components/Footers/CardsFooter.js"
+import DemoNavbar from "components/Navbars/DemoNavbar.js";
+import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js"
+import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
-  state = {}
+  state = {};
   componentDidMount() {
-    document.documentElement.scrollTop = 0
-    document.scrollingElement.scrollTop = 0
-    this.refs.main.scrollTop = 0
+    document.documentElement.scrollTop = 0;
+    document.scrollingElement.scrollTop = 0;
+    this.refs.main.scrollTop = 0;
   }
   render() {
     return (
@@ -78,7 +78,7 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        Junior Full stack developer{" "}
+                        Fresh Full-stack Developer{" "}
                       </h1>
                       <p className="lead text-white">
                         Hi, my name is Abdalrhman and I am 27 years old. I
@@ -295,8 +295,8 @@ class Landing extends React.Component {
         </main>
         <CardsFooter />
       </>
-    )
+    );
   }
 }
 
-export default Landing
+export default Landing;

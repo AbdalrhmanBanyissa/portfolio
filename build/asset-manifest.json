@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ecf7c700.chunk.css",
-    "main.js": "/static/js/main.f57ec770.chunk.js",
-    "main.js.map": "/static/js/main.f57ec770.chunk.js.map",
+    "main.js": "/static/js/main.b6088a56.chunk.js",
+    "main.js.map": "/static/js/main.b6088a56.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.89b9fbde.js",
     "runtime-main.js.map": "/static/js/runtime-main.89b9fbde.js.map",
     "static/js/2.78eaa2cf.chunk.js": "/static/js/2.78eaa2cf.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.ecf7c700.chunk.css.map": "/static/css/main.ecf7c700.chunk.css.map",
     "static/js/2.78eaa2cf.chunk.js.LICENSE.txt": "/static/js/2.78eaa2cf.chunk.js.LICENSE.txt",
-    "static/js/main.f57ec770.chunk.js.LICENSE.txt": "/static/js/main.f57ec770.chunk.js.LICENSE.txt",
+    "static/js/main.b6088a56.chunk.js.LICENSE.txt": "/static/js/main.b6088a56.chunk.js.LICENSE.txt",
     "static/media/BusMall.70aabfac.jpg": "/static/media/BusMall.70aabfac.jpg",
     "static/media/MovieNest.3671c3fc.jpg": "/static/media/MovieNest.3671c3fc.jpg",
     "static/media/TravelinJordan.5f00c4ac.jpg": "/static/media/TravelinJordan.5f00c4ac.jpg",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.89b9fbde.js",
     "static/js/2.78eaa2cf.chunk.js",
     "static/css/main.ecf7c700.chunk.css",
-    "static/js/main.f57ec770.chunk.js"
+    "static/js/main.b6088a56.chunk.js"
   ]
 }
